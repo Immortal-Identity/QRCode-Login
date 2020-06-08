@@ -2,13 +2,13 @@
   <!--  Account Login -->
   <div class="login_box">
     <router-link to="/auth">
-      <div class="login_close"></div>
     </router-link>
     <div class="login_panel">
       <div class="login_title">
         <img src="../assets/img/logo.png" alt="">
         <p>IPERSONA</p>
       </div>
+      <div class="login_close"></div>
       <div class="login_input">
       <input v-model="userId" type="tel" pattern="^\d{11}$" title="Input Email" placeholder="Email Address">
       <input v-model="userPassword" type="password" title="Input Password" placeholder="Password">
@@ -81,7 +81,7 @@ export default {
 
   .login_close {
     position: absolute;
-    top: -60px;
+    top: 5px;
     right: 5px;
     width: 64px;
     height: 64px;
@@ -94,9 +94,11 @@ export default {
 
   /*登录*/
   .login_panel {
-    position: absolute;
+    position: relative;
+    display: block;
     top: 50%;
     left: 50%;
+    margin: auto;
     width: 375px;
     height: 667px;
     padding: 0 0px;
