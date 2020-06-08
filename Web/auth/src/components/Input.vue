@@ -81,8 +81,8 @@ export default {
 
   .login_close {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: -60px;
+    right: 5px;
     width: 64px;
     height: 64px;
     background: url(../assets/img/qrcode.png) no-repeat right top;
