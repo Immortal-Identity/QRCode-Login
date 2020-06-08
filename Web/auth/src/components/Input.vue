@@ -17,7 +17,9 @@
       <div class= "signup">
         <label class="register_title">Need an account?</label>
         <router-link to="/register">
-        <label>Register</label>
+        <div class="button">
+        <div class="signup_button">SIGN UP NOW</div>
+        </div>
         </router-link>
       </div>
     </div>
@@ -126,25 +128,32 @@ export default {
     position: relative; top: 180px;
   }
 
-  .signup register_title{
+  .signup .signup_button{
     display: block;
-    left: 0; top: 0;
-    width: 96px;
+    margin: auto;
+    margin-top: 13.5px;
+    text-align: center;
+    width: 91.5px;
     height: 12px;
-    font-family: lato;
+    font-family: Lato;
     font-size: 12px;
-    font-weight: normal;
+    font-weight: 900;
     font-stretch: normal;
     font-style: normal;
     line-height: 1;
-    letter-spacing: 0.2px;
-    text-align: center;
-    color: #b2b2b2;
+    letter-spacing: 1px;
+    color: #ffffff;
   }
   .login_panel .login_title {
     text-align: center;
   }
-
+  .signup .button{
+    margin: auto;
+    display: block;
+    width: 345px;
+    height: 44px;
+    border: solid 2.5px #444444;
+  }
   .login_panel .login_title img {
     margin-top: 60px;
     height: 70px;
@@ -161,11 +170,19 @@ export default {
   }
 
   .login_panel label {
+    margin: auto;
+    margin-bottom: 17px;
     display: block;
+    width: 96px;
+    height: 12px;
+    font-family: lato;
     font-size: 12px;
-    line-height: 18px;
-    color: #a9a8a5;
-    margin-top: 10px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: 0.2px;
+    color: #b2b2b2;
   }
 
   .login_panel input {
