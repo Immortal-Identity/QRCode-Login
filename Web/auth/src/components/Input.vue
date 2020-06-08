@@ -1,14 +1,15 @@
 <template>
   <!--  Account Login -->
   <div class="login_box">
-    <router-link to="/auth">
-    </router-link>
     <div class="login_panel">
       <div class="login_title">
         <img src="../assets/img/logo.png" alt="">
         <p>IPERSONA</p>
       </div>
-      <div class="login_close"></div>
+      <div class="login_close">
+        <router-link to="/auth">
+        </router-link>
+      </div>
       <div class="login_input">
       <input v-model="userId" type="tel" pattern="^\d{11}$" title="Input Email" placeholder="Email Address">
       <input v-model="userPassword" type="password" title="Input Password" placeholder="Password">
