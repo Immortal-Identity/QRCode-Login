@@ -91,8 +91,9 @@ export default {
   }
 
   .register_panel .register_title {
-    text-align: center;
-  }
+    vertical-align:middle;
+    text-align:center;
+    }
 
   .register_panel .register_title img {
     margin-top: 60px;
