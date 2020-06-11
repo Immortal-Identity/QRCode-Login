@@ -78,6 +78,7 @@ export default {
     left: 50%;
     margin-left: -190px;
     margin-top: -270px;
+    background-color: #333333;
   }
 
   .login_close {
