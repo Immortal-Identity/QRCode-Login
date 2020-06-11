@@ -135,21 +135,20 @@ export default {
   .login_box {
     z-index: 99;
     position: absolute;
-    width: 380px;
+    width: 375px;
     height: 540px;
     top: 50%;
     left: 50%;
     margin-left: -190px;
     margin-top: -270px;
     border-radius: 6px;
-    background-color: #fff;
-    box-shadow: 0 2px 10px #999;
+    background-color: #333333;
   }
 
   .login_close {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 5px;
+    right: 5px;
     width: 64px;
     height: 64px;
     background: url(../assets/img/pcinput.png) no-repeat right top;
@@ -181,7 +180,7 @@ export default {
 
   .qrcode .sub_desc {
     text-align: center;
-    color: #a3a3a3;
+    color: #b2b2b2;
     font-size: 14px;
     padding: 0 40px;
     line-height: 1.8;
